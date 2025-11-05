@@ -13,7 +13,7 @@
 
 
         <activity
-                android:name="codelabs_android.codelab4.Codelab4Activity"
+                android:name="codelabs_android.codelab5.Codelab5Activity"
                 android:exported="true"
                 android:label="@string/app_name"
                 android:theme="@style/Theme.Codelabs_PAMN">
