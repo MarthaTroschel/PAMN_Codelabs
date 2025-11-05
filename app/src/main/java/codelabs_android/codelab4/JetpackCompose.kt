@@ -32,7 +32,6 @@ class Codelab4Activity : ComponentActivity() {
         }
     }
 }
-
 @Composable
 fun LayoutDemo() {
     Column(

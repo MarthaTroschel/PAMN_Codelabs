@@ -1,4 +1,4 @@
-package com.example.codelabs_pamn.codelabs_android.codelab3
+package codelabs_android.codelab3
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

@@ -35,7 +35,6 @@ class UserData {
 class UserViewModel(private val repository: UserData) : ViewModel() {
     private val _uiState = MutableStateFlow(UserUiState())
     val uiState: StateFlow<UserUiState> = _uiState
-
     init {
         loadUsers()
     }
@@ -48,7 +47,6 @@ class UserViewModel(private val repository: UserData) : ViewModel() {
 data class UserUiState(
     val users: List<String> = emptyList()
 )
-
 class UserViewModelFactory(private val repository: UserData) : ViewModelProvider.Factory {
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
         if (modelClass.isAssignableFrom(UserViewModel::class.java)) {
