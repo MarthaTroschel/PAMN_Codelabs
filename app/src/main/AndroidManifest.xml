@@ -11,17 +11,16 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/Theme.Codelabs_PAMN">
+
         <activity
-                android:name=".MainActivity"
+                android:name="com.example.codelabs_pamn.codelabs_android.codelab3.Codelab3Activity"
                 android:exported="true"
                 android:label="@string/app_name"
                 android:theme="@style/Theme.Codelabs_PAMN">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
-
 </manifest>
